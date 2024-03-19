@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Byekan';
+    src: url('../fonts/Yekan.ttf');
+}
+@font-face {
+    font-family: 'far-bardia';
+    src: url('../fonts/Far_BardiyaBd.ttf'),
+    url('../fonts/Far_BardiyaBd.woff');
+}
+body{
+    font-family: Byekan;
+}
+.header{
+    height: 550px;
+    background-image: url('../images/glowing\ planet\ globes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+.header .nav-list{
+    list-style-type: none;
+}
+.header .nav-list .nav-item{
+    display: inline-block;
+    padding: 15px;
+}
+.header .nav-list .nav-item:hover{
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    background-color: navajowhite;
+    box-shadow: inset 0px -3px 1px 1px rgb(99, 2, 34);
+    transition: box-shadow 0.5s , color 0.5s , background-color 1s;
+}
+.title{
+    font-family: far-bardia;
+    font-size: 80px;
+    margin-top: 50px;
+}
+.header .title span{
+    color: orange;
+}
+.header .desc{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    width: 500px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 20px;
+    border: 1px solid wheat;
+    margin-top: 30px;
+}
+.members{
+    text-align: center;
+    padding-top: 30px;
+}
+.member-list{
+    list-style-type: none;
+    padding-top: 30px;
+}
+.member-item{
+    width: 350px;
+    display: inline-block;
+    box-shadow: 0 0 15px red;
+}
+.member-pic{
+    width: 100%;
+}
+.about{
+    height: 700px;
+    background-image: url('../images/dark\ texture.jpg');
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    background-color: rgba(192, 21, 106, 0.932);
+    background-blend-mode: multiply;
+}
+.circle{
+    height: 600px;
+    width: 600px;
+    background-color: rgba(135, 135, 135, 0.3);
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    padding: 100px 120px;
+}
+.circle h2{
+    font-size: 35px;
+}
+.circle p{
+    padding-top: 35px;
+    text-align: justify;
+    font-size: 17px;
+}
